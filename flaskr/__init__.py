@@ -35,5 +35,9 @@ def create_app(test_config=None):
     app.register_blueprint(auth.bp)
     # the authentication blueprint will have views 
     # to register new users and to log in and log out
+
+    from . import blog
+    app.register_blueprint(blog.bp)
+    app.add_url_rule('/', endpoint='index')
     
     return app
