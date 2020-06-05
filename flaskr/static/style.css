@@ -1,27 +1,31 @@
 html { 
     font-family: sans-serif; 
-    background: #eee; 
     padding: 1rem; 
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 }
 body { 
     max-width: 960px; 
     margin: 0 auto;
-    background: white; 
+    background: rgba(131, 58, 180, 0.38);
 }
 h1 { 
-    font-family: serif; 
-    color: #377ba8; 
+    font-family: Cambria, serif; 
+    color: #eeaeca; 
     margin: 1rem 0; 
 }
 a { 
-    color: #377ba8; 
+    color: #eeaeca; 
 }
 hr { 
     border: none; 
     border-top: 1px solid lightgray; 
 }
 nav {
-    background: lightgray; 
+    background: #649cde4a; 
     display: flex; 
     align-items: center; 
     padding: 0 0.5rem; 
